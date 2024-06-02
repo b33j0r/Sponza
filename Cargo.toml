@@ -1,0 +1,22 @@
+[package]
+name = "bevy-sponza"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = ">=0.13", features = [
+    "jpeg",
+    "symphonia-all",
+    "webp",
+    "dynamic_linking",
+    "exr",
+    "tga",
+    "pbr_transmission_textures",
+    "bevy_pbr",
+    "bevy_gltf",
+    "tonemapping_luts",
+] }
+bevy_gltf = ">=0.13"
+bevy_egui = "*"
+bevy-tnua = { version = "*"  }
+bevy-tnua-rapier3d = "*"
